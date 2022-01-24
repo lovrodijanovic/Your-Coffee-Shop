@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Your Coffee Shop</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
     <header>
       <img
         class="background_image"
-        src="header_background.jpg"
+        src="Pictures\header_background.jpg"
         alt="coffee cup"
       />
       <div class="header_text">
@@ -27,7 +27,6 @@
           <a>Shop</a>
           <a>Learn</a>
           <a>Sign in</a>
-
           <button class="icon">
             <svg
               class="cart_icon"
@@ -80,37 +79,106 @@
       </div>
     </header>
     <main>
-      <div class="section1">
-        <img src="coffee_cup.jpg" alt="coffee cup" class="coffee_images" />
-        <p class="text1">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-          nostrum placeat molestiae molestias sed, fugiat dolorem debitis esse
-          similique iure optio odio aut ipsam, quos excepturi asperiores ab
-          deserunt minima?
-        </p>
-      </div>
-      <div class="section2">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ex sed
-          deserunt, a sint nihil tenetur, accusantium asperiores ut tempora
-          quasi quas sit nesciunt et enim accusamus? Culpa, repudiandae quia!
-        </p>
-        <img
-          src="coffee+leaves.jpg"
-          alt="coffee and plants"
-          class="coffee_images"
-        />
-      </div>
-      <div class="section3">
-        <img src="coffee1.jpg" alt="coffee and plants" class="coffee_images" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          sapiente architecto odio provident incidunt dolores expedita, illo
-          obcaecati deserunt error rerum repellat! Qui est quis minima assumenda
-          repellendus sunt libero.
-        </p>
-      </div>
+      <section class="main_section">
+        <h2 class="title_main">What we are about</h2>
+        <div class="section1">
+          <img
+            src="Pictures\coffee_cup.jpg"
+            alt="coffee cup"
+            class="coffee_images"
+          />
+          <p>
+            Just like you, we are passionate about coffee. We love this hobby.
+            It's more than just a beverage, it's a <strong>ritual</strong>. It's
+            time we get to spend talking with a friend, partner, parent or
+            grandparent. People of all ages and colours have their own unique
+            coffee culture, and we would like you to be a part of ours.
+          </p>
+        </div>
+        <div class="section2">
+          <p>
+            Buying our product means supporting the pillar of this industry:
+            <strong>farmers</strong>. We are working closely with Kenyan,
+            Ethiopian and Brasilian farmers to ensure most of your money goes
+            into their hands. We are working to cut down the number of
+            middle-men your coffee goes through, ensuring freshest coffee with
+            minimal expenses.
+          </p>
+          <img
+            src="Pictures\coffee_farmer.jpg"
+            alt="coffee and plants"
+            class="coffee_images"
+          />
+        </div>
+        <div class="section3">
+          <img
+            src="Pictures\coffee1.jpg"
+            alt="coffee and plants"
+            class="coffee_images"
+          />
+          <p>
+            Choose a package that best fits your coffee needs. You can switch
+            your subsription package at any time, with
+            <strong>no extra</strong> charge. That gives you pleanty of room to
+            experiment with our many coffee options.
+          </p>
+        </div>
+      </section>
+
+      <h2 class="title_main_packages">Our best selling packages</h2>
+      <section class="section_packages">
+        <div class="three_colums">
+          <figure class="subscription_package">
+            <img src="Pictures\coffee3.png" alt="coffee" />
+            <div class="sub_description">
+              <h3>2 bags</h3>
+              <ul class="sub_details">
+                <li>Organically grown</li>
+                <li>Lasts up to a month</li>
+                <li>Kenya & Ethiopia</li>
+                <li>2 bags of your choice</li>
+              </ul>
+              <div class="sub_price">
+                <strong class="price">5€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+          <figure class="subscription_package">
+            <img src="Pictures\coffee2.png" alt="coffee" />
+            <div class="sub_description">
+              <h3>4 bags</h3>
+              <ul class="sub_details">
+                <li>Organically grown</li>
+                <li>Lasts up to two month</li>
+                <li>Ethiopia & Brazil</li>
+                <li>4 bags of your choice</li>
+              </ul>
+              <div class="sub_price">
+                <strong class="price">8€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+          </figure>
+          <figure class="subscription_package">
+            <img src="Pictures\coffee1.png" alt="coffee" />
+            <div class="sub_description">
+              <h3>6 bags</h3>
+              <ul class="sub_details">
+                <li>Organically grown</li>
+                <li>Lasts up to three month</li>
+                <li>Kenya & Brazil</li>
+                <li>6 bags of your choice</li>
+              </ul>
+              <div class="sub_price">
+                <strong class="price">15€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+          </figure>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>By: Lovro Dijanović. Part of project excersise for subject Osnove Razvoja Web i Mobilnih Aplikacija, 2022.</p>
+    </footer>
   </body>
 </html>
