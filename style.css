@@ -128,8 +128,8 @@ a:active {
 }
 
 .section_packages {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: 0 auto;
+  width: 1050px;
   margin-bottom: 100px;
 }
 
